@@ -32,7 +32,7 @@ namespace Part_3
                 }
                 Console.WriteLine("Кол-во строк = {0}шт.", kStr);
             }
-            str3= str.Replace("\r\n", "");
+            str3 = str.Replace("\r\n", "");
             str3 = str3.Replace(" ", "");
             int dlina = str3.Length;
             Console.WriteLine("Кол-во символов = {0}шт.", dlina);
@@ -45,7 +45,7 @@ namespace Part_3
             Console.WriteLine("Кол-во слов ={0}шт.", k);
             Console.WriteLine();
             Console.WriteLine("Иследуемая фраза:");
-            Console.Write (str);
+            Console.Write(str);
             Console.ReadKey();
         }
     }
